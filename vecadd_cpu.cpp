@@ -22,7 +22,6 @@ int main(void)
    y[i] = 2.0f;
  }
  
- printf("size: %d", sizeof(int));
 
 // insert start timer code here
 std::chrono::time_point<std::chrono::high_resolution_clock> start_time = std::chrono::high_resolution_clock::now();

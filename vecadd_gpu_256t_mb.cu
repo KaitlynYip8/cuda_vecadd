@@ -12,7 +12,7 @@ void add(int n, float *x, float *y)
  
 int main(void)
 {
- int N = 1<<29;
+ int N = 1<<29; // 512M
  float *x, *y;
  
  // Allocate Unified Memory – accessible from CPU or GPU
